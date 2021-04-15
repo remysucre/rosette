@@ -266,7 +266,7 @@
 (define tests:bvror
   (test-suite+
    "Tests for bvror in rosette/base/bvlib.rkt"
-   #:features '(qf_bv)
+   #:features '(qf_bv int2bv)
    (check-bvrotate bvror bvrol)))
 
 (define tests:rotate-left
